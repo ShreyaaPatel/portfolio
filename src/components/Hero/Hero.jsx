@@ -1,13 +1,13 @@
 import React from 'react'
 import './Hero.css'
-import profilepic from '../../assets/profilepic.jpeg'
+import shreya_crop from '../../assets/shreya_crop.jpeg'
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 import Resume from '../../assets/Resume.pdf'
 
 const Hero = () => {
     return (
         <div id='home' className='hero'>
-            <img src={profilepic} alt="" />
+            <img src={shreya_crop} alt="" />
             <h1><span>I'm Shreya Patel</span>,Frontend Developer</h1>
             <p></p>
             <div className="hero-action">
